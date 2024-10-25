@@ -1,0 +1,22 @@
+export const songs = [
+    {
+        name: 
+        artist:
+        year:
+    },
+    {
+        name: 
+        artist:
+        year:
+    },
+    {
+        name: 
+        artist:
+        year:
+    },
+    {
+        name: 
+        artist:
+        year:
+    }
+]
