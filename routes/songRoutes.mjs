@@ -9,7 +9,7 @@ router.get('/', (req, res) =>{
 // Create
 router.post('/', (req,res)=>{
     try {
-        const = newSong = new Song(req.body)
+       
 
         await newSong.save()
 
@@ -22,7 +22,7 @@ router.post('/', (req,res)=>{
 // Read
 router.get('/', (req,res)=>{
     try {
-        const allSongs = await song.find({})
+       
 
         res.json(allSongs)
     } catch (err) {
@@ -32,7 +32,7 @@ router.get('/', (req,res)=>{
 // Update
 router.put('/:id', (req,res)=>{
     try {
-        let updatedSong = await song.findByIdAndUpdate(req.params.id, req.body, {new: true})
+        
 
         res.json(updatedSong)
     } catch (err) {
@@ -42,7 +42,7 @@ router.put('/:id', (req,res)=>{
 // Delete
 router.delete('/:id', (req,res)=>{
     try {
-        let deletedSong = await Song.findByIdAndDelete(req.params.id);
+        
         
         res.json(deletedSong);
     } catch (err) {

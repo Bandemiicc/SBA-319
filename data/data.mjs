@@ -1,22 +1,26 @@
 export const songs = [
     {
-        name: 
-        artist:
-        year:
+        Name: "Seagirl",
+        Artist: "King Krule",
+        Date: "08-28-24",
+        Album: "Space Heavy",
     },
     {
-        name: 
-        artist:
-        year:
+        Name: "Untitled Demo 1997",
+        Artist: "Panchiko",
+        Date: "08-28-24",
+        Album: "Ferric Oxide",
     },
     {
-        name: 
-        artist:
-        year:
+        Name: "(dream)",
+        Artist: "salvia path",
+        Date: "08-28-24",
+        Album: "melanchole"
     },
     {
-        name: 
-        artist:
-        year:
+        name: "Safe For Your Skin",
+        artist: "Title Fight",
+        Date: "08-17-24",
+        Album: "Shred"
     }
 ]
