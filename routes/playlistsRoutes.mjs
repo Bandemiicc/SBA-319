@@ -55,18 +55,6 @@ router.get('/', async (req, res) => {
 });
 
 
-router.delete('/:playlistId/songs', async (req,res)=> {
-    const { songId } = req.body;
-    const { playlistId } = req.params;
-
-    try {
-        const deletedPlaylist = await Playlist.findIdAndDelete(req.params);
-        if (!deletedSong) {
-            return res.status(404).json({msg: "Playlist not found"});
-    } catch (error) {
-        
-    }
-})
 
 
 
